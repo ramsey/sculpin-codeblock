@@ -1,0 +1,30 @@
+{
+    "name": "rhumsaa/sculpin-codeblock",
+    "homepage": "https://github.com/ramsey/rhumsaa-sculpin-codeblock",
+    "description": "A Sculpin bundle for using the rhumsaa/twig-codeblock extension for defining blocks of code for syntax highlighting (with Pygments) and more.",
+    "keywords": ["sculpin", "bundle", "twig", "extension", "syntax", "highlighting", "pygments", "pygmentize"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Ramsey",
+            "email": "ben@benramsey.com",
+            "homepage": "http://benramsey.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0",
+        "rhumsaa/twig-codeblock": "dev-master",
+        "symfony/config": "~2.1",
+        "symfony/dependency-injection": "~2.1",
+        "symfony/http-kernel": "~2.3",
+        "sculpin/sculpin": "~2.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rhumsaa\\Sculpin\\Bundle\\CodeBlockBundle\\": ""
+        }
+    }
+}
