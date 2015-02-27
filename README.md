@@ -4,7 +4,7 @@ This [Sculpin](https://sculpin.io/) bundle provides the [Codeblock extension for
 
 ## Installation
 
-Add `ramsey/sculpin-codeblock` as a requirement to your `sculpin.json` file and run `sculpin update`.
+Add `ramsey/sculpin-codeblock` as a requirement to your `sculpin.json` file and run `sculpin install`.
 
 Then, add the bundle to your `SculpinKernel`. For example:
 
@@ -15,7 +15,7 @@ class SculpinKernel extends \Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKer
     protected function getAdditionalSculpinBundles()
     {
         return array(
-            'Ramsey\\Sculpin\\Bundle\\CodeBlockBundle\\RhumsaaSculpinCodeBlockBundle',
+            'Ramsey\\Sculpin\\Bundle\\CodeBlockBundle\\RamseySculpinCodeBlockBundle',
         );
     }
 }
