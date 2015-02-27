@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the Rhumsaa\Sculpin\CodeBlock bundle for Sculpin
+ * This file is part of the Ramsey\Sculpin\CodeBlock bundle for Sculpin
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -9,7 +9,7 @@
  * @license http://opensource.org/licenses/MIT MIT
  */
 
-namespace Rhumsaa\Sculpin\Bundle\CodeBlockBundle;
+namespace Ramsey\Sculpin\Bundle\CodeBlockBundle;
 
 use Sculpin\Bundle\MarkdownBundle\SculpinMarkdownBundle;
 use Sculpin\Bundle\TwigBundle\SculpinTwigBundle;

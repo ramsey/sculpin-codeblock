@@ -5,11 +5,11 @@
 
     <services>
 
-        <service id="rhumsaa.sculpin.bundle.codeblock_bundle.convert_listener" class="Rhumsaa\Sculpin\Bundle\CodeBlockBundle\ConvertListener">
+        <service id="ramsey.sculpin.bundle.codeblock_bundle.convert_listener" class="Ramsey\Sculpin\Bundle\CodeBlockBundle\ConvertListener">
             <tag name="kernel.event_subscriber" />
         </service>
 
-        <service id="rhumsaa.twig.codeblock_extension" class="Rhumsaa\Twig\CodeBlock\CodeBlockExtension">
+        <service id="ramsey.twig.codeblock_extension" class="Ramsey\Twig\CodeBlock\CodeBlockExtension">
             <tag name="twig.extension" />
         </service>
 

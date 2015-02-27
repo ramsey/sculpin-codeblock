@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the Rhumsaa\Sculpin\CodeBlock bundle for Sculpin
+ * This file is part of the Ramsey\Sculpin\CodeBlock bundle for Sculpin
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -9,7 +9,7 @@
  * @license http://opensource.org/licenses/MIT MIT
  */
 
-namespace Rhumsaa\Sculpin\Bundle\CodeBlockBundle\DependencyInjection;
+namespace Ramsey\Sculpin\Bundle\CodeBlockBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -17,9 +17,9 @@ use Symfony\Component\DependencyInjection\Loader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
- * Rhumsaa Sculpin CodeBlock Extension
+ * Ramsey Sculpin CodeBlock Extension
  */
-class RhumsaaSculpinCodeBlockExtension extends Extension
+class RamseySculpinCodeBlockExtension extends Extension
 {
     /**
      * {@inheritdoc}
