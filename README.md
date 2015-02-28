@@ -15,7 +15,7 @@ class SculpinKernel extends \Sculpin\Bundle\SculpinBundle\HttpKernel\AbstractKer
     protected function getAdditionalSculpinBundles()
     {
         return array(
-            'Ramsey\\Sculpin\\Bundle\\CodeBlockBundle\\RamseySculpinCodeBlockBundle',
+            'Ramsey\Sculpin\Bundle\CodeBlockBundle\RamseySculpinCodeBlockBundle',
         );
     }
 }
