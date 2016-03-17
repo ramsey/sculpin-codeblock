@@ -2,6 +2,8 @@
 
 This [Sculpin](https://sculpin.io/) bundle provides the [Codeblock extension for Twig](https://github.com/ramsey/twig-codeblock) to Sculpin sites.
 
+This project adheres to a [Contributor Code of Conduct][conduct]. By participating in this project and its community, you are expected to uphold this code.
+
 ## Installation
 
 Add `ramsey/sculpin-codeblock` as a requirement to your `sculpin.json` file and run `sculpin install`.
@@ -26,3 +28,6 @@ For more information, see the Sculpin [Configuration](https://sculpin.io/documen
 ## TODO
 
 * Write tests for this package
+
+
+[conduct]: https://github.com/ramsey/sculpin-codeblock/blob/master/CODE_OF_CONDUCT.md
