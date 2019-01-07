@@ -14,6 +14,7 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "abandoned": true,
     "require": {
         "php": ">=5.4.0",
         "ramsey/twig-codeblock": "~1.0",
